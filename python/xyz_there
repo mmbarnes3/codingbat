@@ -1,6 +1,6 @@
-def xyz_there(str):
-  new_string = ''
+    def xyz_there(str):
+    new_string = ''
     if '.xyz' in str:
-      new_string = str.replace('.xyz',"")
-      return 'xyz' in new_string
-  return 'xyz' in str
+        new_string = str.replace('.xyz',"")
+        return 'xyz' in new_string
+    return 'xyz' in str
